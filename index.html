@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Geovanna Dos Santos Benedito</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root {
+      --bege-claro: #f5f0e6;
+      --bege-escuro: #d8c3a5;
+      --text-color: #333;
+      --accent: #8e735b;
+      --accent-dark: #6e5947;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #f5f0e6, #e3d6c4);
+      color: var(--text-color);
+    }
+
+    header {
+      background-color: var(--bege-escuro);
+      padding: 60px 20px 40px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      color: var(--accent);
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .foto {
+      flex: 1 1 250px;
+      text-align: center;
+    }
+
+    .foto img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 6px solid var(--bege-escuro);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .foto img:hover {
+      transform: scale(1.05);
+    }
+
+    .sobre {
+      flex: 2 1 400px;
+    }
+
+    .sobre h2 {
+      font-size: 2em;
+      color: var(--accent);
+      margin-bottom: 20px;
+    }
+
+    .sobre p {
+      font-size: 1.1em;
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+
+    .btn, .icon-link {
+      display: inline-block;
+      background-color: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 25px;
+      font-weight: bold;
+      margin: 5px;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .btn:hover, .icon-link:hover {
+      background-color: var(--accent-dark);
+      transform: translateY(-2px);
+    }
+
+    .btn:active, .icon-link:active {
+      background-color: #5a4635;
+    }
+
+    .links {
+      margin-top: 20px;
+    }
+
+    .links a i {
+      margin-right: 8px;
+    }
+
+    footer {
+      background-color: var(--bege-escuro);
+      text-align: center;
+      padding: 20px;
+      color: #fff;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 768px) {
+      main {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .sobre {
+        padding: 0 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Geovanna Dos Santos Benedito</h1>
+    <p>Desenvolvedora | Estudante | Criadora</p>
+  </header>
+
+  <main>
+    <div class="foto">
+      <img src="minha-foto.jpg" alt="Minha Foto">
+    </div>
+    <div class="sobre">
+      <h2>Sobre Mim</h2>
+      <p>Olá! Sou estudante de Ciência de Dados e Machine Learning e me interesso por todo o universo que envolve minha área de formação — da análise estatística à inteligência artificial.
+Atualmente, estou em fase de aprendizagem, com foco em Python, modelos de banco de dados e bibliotecas como Pandas e NumPy, buscando desenvolver uma base sólida tanto na parte técnica quanto na compreensão prática dos dados. Tenho me dedicado a projetos e estudos que me permitam aplicar esse conhecimento de forma criativa e funcional.
+
+Paralelamente à área acadêmica, tenho uma forte conexão com a arte e o fazer manual. Pintar, desenhar, escrever e cozinhar sempre fizeram parte do meu dia a dia, assim como os esportes — em especial as artes marciais —, que me ensinaram disciplina, foco e persistência. Acredito que essas vivências complementam minha formação, trazendo sensibilidade e capacidade de adaptação a diferentes contextos.
+
+Estou em constante evolução e aberta a oportunidades que me permitam crescer e colaborar com pessoas que também acreditam no poder da curiosidade e do conhecimento.</p>
+
+      <div class="links">
+        <a href="https://github.com/geovannadsb" class="btn" target="_blank">Ver meu GitHub</a>
+        <a href="www.linkedin.com/in/geovanna-dos-santos-benedito" class="icon-link" target="_blank"><i class="fab fa-linkedin"></i>LinkedIn</a>
+        <a href="https://sites.google.com/view/portfoliohub-geovanna/perfil" class="icon-link" target="_blank"><i class="fas fa-globe"></i>Portfólio</a>
+        <a href="mailto:geovannadsb06@gmail.com" class="icon-link"><i class="fas fa-envelope"></i>Email</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Geovanna Dos Santos Benedito. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
+
